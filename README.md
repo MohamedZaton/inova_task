@@ -1,6 +1,6 @@
 # inova_task
 
-A new Flutter project.
+Contact List app  Flutter task .
 
 ## Getting Started
 
