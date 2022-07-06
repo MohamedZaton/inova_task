@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:inova_task/presentation/pages/home/home_view.dart';
+import 'package:inova_task/presentation/pages/splash/splash_view.dart';
 
 import 'config/routes/app_routes.dart';
 import 'config/themes/get_theme.dart';
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Inova Task',
       debugShowCheckedModeBanner: false,
       theme: buildLightTheme(),
-      initialRoute: HomePage.id,
+      initialRoute: SplashPage.id,
       getPages: AppRoutes.onGenerateRoutes(),
     );
   }
